@@ -1,7 +1,6 @@
 
 package api;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +9,7 @@ import static org.hamcrest.Matchers.anyOf;
 import static org.hamcrest.Matchers.containsString;
 import static org.pinterest.login.api.UserLoginApiResponse.*;
 
-public class LoginTest {
+public class LoginApiTest {
 
     @Test
     @DisplayName("Авторизация c невалидным паролем")
