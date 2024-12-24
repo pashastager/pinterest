@@ -30,7 +30,7 @@ public class LoginApiTest {
     }
 
     @Test
-    @DisplayName("Авторизация без пароля")
+    @DisplayName("Авторизация без ввода пароля")
     public void loginWithoutPassword() {
         String url = "https://ru.pinterest.com/resource/UserSessionResource/create/";
         given()
